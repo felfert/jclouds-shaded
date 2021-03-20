@@ -10,7 +10,7 @@ The primary use-case for this project is the [jclouds-plugin](https://github.com
 for [jenkins](https://www.jenkins.io/). The reason for it being a **separate** project and **not** a maven module,
 is this bug: (https://issues.apache.org/jira/browse/MSHADE-326)
 
-To use this project in your maven project, create the following dpendency in your pom.xml:
+To use this project in your maven project, create the following dependency in your pom.xml:
 ```
 <dependency>
     <groupId>com.github.felfert</groupId>
