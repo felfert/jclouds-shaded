@@ -10,7 +10,7 @@
   <groupId>com.github.felfert</groupId>
   <artifactId>jclouds-shaded</artifactId>
   <packaging>jar</packaging>
-  <version>2.3.0</version>
+  <version>2.3.0-SNAPSHOT</version>
   <name>Shaded jclouds</name>
   <url>https://github.com/felfert/jclouds-shaded</url>
 
@@ -39,7 +39,7 @@
   </scm>
 
   <properties>
-    <jclouds.version>${project.version}</jclouds.version>
+    <jclouds.version>2.3.0</jclouds.version>
     <!-- destination directory of dependency-reduced pom in final jar -->
     <reduced.pom.dst>META-INF/maven/${project.groupId}/${project.artifactId}-${project.version}.jar</reduced.pom.dst>
   </properties>
