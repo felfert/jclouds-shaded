@@ -1,4 +1,4 @@
-![travis build status](https://www.travis-ci.com/felfert/jclouds-shaded.svg?branch=main)
+[![Build Status](https://www.travis-ci.com/felfert/jclouds-shaded.svg?branch=main)](https://www.travis-ci.com/felfert/jclouds-shaded)
 # jclouds-shaded
 
 This project provides a shaded version of apache jclouds where
