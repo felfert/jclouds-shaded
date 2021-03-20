@@ -165,6 +165,8 @@
           </execution>
         </executions>
         <configuration>
+          <createSourcesJar>true</createSourcesJar>
+          <shadeSourcesContent>true</shadeSourcesContent>
           <dependencyReducedPomLocation>${project.build.directory}/tmp/${reduced.pom.dst}/pom.xml</dependencyReducedPomLocation>
           <artifactSet>
             <includes>
@@ -190,6 +192,28 @@
           </transformers>
           <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>javadoc-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <configuration>
+              <includeDependencySources>true</includeDependencySources>
+              <dependencySourceIncludes>
+                <dependencySourceInclude>org.apache.jclouds:*</dependencySourceInclude>
+              </dependencySourceIncludes>
+              <doclint>none</doclint>
+              <maxmemory>512m</maxmemory>
+              <quiet>true</quiet>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
 
       <plugin>
