@@ -16,6 +16,6 @@ To use this project in your maven project, create the following dependency in yo
 <dependency>
     <groupId>com.github.felfert</groupId>
     <artifactId>jclouds-shaded</artifactId>
-    <version>2.3.0</version>
+    <version>2.4.0</version>
 </dependency>
 ```
