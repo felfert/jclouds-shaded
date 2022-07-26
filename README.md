@@ -1,4 +1,5 @@
 [![Build Status](https://www.travis-ci.com/felfert/jclouds-shaded.svg?branch=main)](https://www.travis-ci.com/felfert/jclouds-shaded)
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 # jclouds-shaded
 
 This project provides a shaded version of apache jclouds where
