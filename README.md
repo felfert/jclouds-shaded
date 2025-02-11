@@ -5,7 +5,8 @@
 This project provides a shaded version of apache jclouds where
 both guava is relocatded from `com.google.common` to `shaded.com.google.common`
 and guice is relocated from `com.google.inject` to `shaded.com.google.inject`.
-This makes it possible to be used in environments where both guava and guice
+Since v2.7.0, `com.google.errorprone` is relocated to `shaded.com.google.errorprone` as well.
+This makes it possible to be used in environments where guava, guice and errorprone
 are used with different versions.
 
 The primary use-case for this project is the [jclouds-plugin](https://github.com/jenkinsci/jclouds-plugin)
@@ -17,6 +18,6 @@ To use this project in your maven project, create the following dependency in yo
 <dependency>
     <groupId>com.github.felfert</groupId>
     <artifactId>jclouds-shaded</artifactId>
-    <version>2.4.0</version>
+    <version>2.7.0</version>
 </dependency>
 ```

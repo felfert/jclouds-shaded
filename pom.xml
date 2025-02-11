@@ -177,6 +177,7 @@
               <include>com.google.guava:*</include>
               <include>com.google.inject:guice</include>
               <include>com.google.inject.extensions:guice-assistedinject</include>
+              <include>com.google.errorprone:error_prone_annotations</include>
             </includes>
           </artifactSet>
           <relocations>
@@ -187,6 +188,10 @@
             <relocation>
               <pattern>com.google.common</pattern>
               <shadedPattern>shaded.com.google.common</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>com.google.errorprone</pattern>
+              <shadedPattern>shaded.com.google.errorprone</shadedPattern>
             </relocation>
           </relocations>
           <transformers>
@@ -213,6 +218,7 @@
               <doclint>none</doclint>
               <maxmemory>512m</maxmemory>
               <quiet>true</quiet>
+              <additionalOptions>--ignore-source-errors</additionalOptions>
             </configuration>
           </execution>
         </executions>
