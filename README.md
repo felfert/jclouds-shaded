@@ -1,5 +1,5 @@
-[![Build Status](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg)
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
+![Build Status](https://github.com/felfert/jclouds-shaded/actions/workflows/ci.yml/badge.svg)
+![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 # jclouds-shaded
 
 This project provides a shaded version of apache jclouds where
