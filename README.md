@@ -1,4 +1,4 @@
-![Build Status](https://github.com/felfert/jclouds-shaded/actions/workflows/ci.yml/badge.svg?event=push)
+[![Build Status](https://github.com/felfert/jclouds-shaded/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/felfert/jclouds-shaded/actions/workflows/ci.yml)
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 # jclouds-shaded
 
