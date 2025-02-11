@@ -1,4 +1,4 @@
-[![Build Status](https://www.travis-ci.com/felfert/jclouds-shaded.svg?branch=main)](https://www.travis-ci.com/felfert/jclouds-shaded)
+[![Build Status](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg)
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 # jclouds-shaded
 
